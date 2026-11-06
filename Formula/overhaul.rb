@@ -5,27 +5,27 @@
 class Overhaul < Formula
   desc "Per-project agent orchestrator over tmux and Orca"
   homepage "https://github.com/whitte-h/overhaul"
-  version "0.2.1"
+  version "0.3.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/whitte-h/overhaul/releases/download/v0.2.1/overhaul-darwin-arm64"
-      sha256 "f695e997665b4eebc30819d893b4bb8f03473b25e7693e285e9cbf25b36b12a0"
+      url "https://github.com/whitte-h/overhaul/releases/download/v0.3.1/overhaul-darwin-arm64"
+      sha256 "b3e474fc2138ede4b70c5da8178a3d0c2b7874b13ffd54322076429af6968bd5"
     end
     on_intel do
-      url "https://github.com/whitte-h/overhaul/releases/download/v0.2.1/overhaul-darwin-x64"
-      sha256 "8dde34309bb7f858a77fd1558bced82f7e4072020c0026a6c2bb0821b48b11a1"
+      url "https://github.com/whitte-h/overhaul/releases/download/v0.3.1/overhaul-darwin-x64"
+      sha256 "661e9d6d5306fdb73b4e740a54a84aa766da1baf72303c64259288984b568494"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/whitte-h/overhaul/releases/download/v0.2.1/overhaul-linux-arm64"
-      sha256 "3ad45cc84109c7d71ba70d78eb8baf36512509f8de52cce56de920f810bb2a3c"
+      url "https://github.com/whitte-h/overhaul/releases/download/v0.3.1/overhaul-linux-arm64"
+      sha256 "d7761f7cf083641d6ec943dd6afdc15ab6adaf8eb0eb0b068e796df23017b429"
     end
     on_intel do
-      url "https://github.com/whitte-h/overhaul/releases/download/v0.2.1/overhaul-linux-x64"
-      sha256 "ed44514044027eefb60cc96ba892f1752d0cc027766461cc22ee8470e386a656"
+      url "https://github.com/whitte-h/overhaul/releases/download/v0.3.1/overhaul-linux-x64"
+      sha256 "ded2ad16b9465895610da8822d90bbe5e6736e94ee1bd341ead4dc2e640101b4"
     end
   end
 
